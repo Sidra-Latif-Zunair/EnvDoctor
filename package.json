@@ -1,0 +1,26 @@
+
+{
+  "name": "envdoctor-cli",
+  "version": "1.0.0",
+  "description": "Diagnose missing and empty environment variables safely",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "envdoctor": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "environment-variables",
+    "cli",
+    "debugging"
+  ],
+  "license": "MIT"
+}
